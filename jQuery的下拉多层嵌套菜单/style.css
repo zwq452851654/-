@@ -1,0 +1,120 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+ul{
+	list-style: none;
+}
+
+
+.process li,.process1 li,.process2 li,.process3 li{
+	float: left;
+	text-align: center;
+}
+
+.process li em{
+	display: block;
+	width: 70px;
+	height: 70px;
+	padding: 20px 0 0 5px;'
+}
+
+
+.process li i,.process1 li i,.process2 li i,.process3 li i{
+	display: block;
+	width: 70px;
+	height: 70px;
+	margin: 0 10px;
+	border: 1px solid #ccc;
+}
+
+
+.process li i{
+	margin-bottom:7px;
+}
+
+
+
+.process1 li i,.process2 li i,.process3 li i{
+	margin:0 7px 7px 7px;
+}
+
+
+.Supervision{
+	padding: 0;
+}
+
+
+.Diagram{
+	text-align: center;
+}
+
+.mar{
+	margin: 15px 0;
+}
+
+.Discharge{
+    padding: 6px 6px;
+    font-size: 14px;
+    font-weight: normal;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.mar-top{
+	margin-top: 24%;
+}
+
+#enterprise h4{
+	margin-top: 30px;
+}
+
+.License{
+	border: 1px solid #ccc;
+	height: auto;
+	padding: 5px 15px;
+}
+
+.Btn-a span{
+	display: block;
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	border: 1px solid #ccc;
+	text-align: center;
+}
+
+.License li,.License li img{
+	width: 100%
+}
+
+
+#Environmental td,#newAdd td,#prison td,#prison th{
+	vertical-align: middle;
+}
+
+
+
+/*多级下拉菜单开始*/
+.list{/*width: 210px;*/margin:40px auto 0 auto;}
+.list ul li{background-color:#d9edf7; border:solid 1px #d9edf7; border-bottom:0;border-radius: 5px;margin: 5px 0;}
+.list ul li a{padding-left: 10px; font-size:12px; display: block; font-weight:bold; height:36px;line-height: 36px;position: relative;
+}
+.list ul li .inactive{ background:url(../img/off.png) no-repeat 92% center;}
+.list ul li .inactives{background:url(../img/on.png) no-repeat 92% center;} 
+.list ul li ul{display: none;}
+.list ul li ul li { border-left:0; border-right:0; background-color:#f2dede; border-color:#f2dede;}
+.list ul li ul li ul{display: none;}
+.list ul li ul li a{ padding-left:20px;}
+.list ul li ul li ul li { background-color:#fcf8e3; border-color:#fcf8e3; }
+.last{ background-color:#d6e6f1; border-color:#6196bb; }
+.list ul li ul li ul li a{ color:#316a91; padding-left:30px;}
+/*多级下拉菜单结束*/
